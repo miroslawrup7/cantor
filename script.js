@@ -37,6 +37,7 @@ let plAmount = "0";
 
 $.getJSON({
     url: "https://api.nbp.pl/api/exchangerates/rates/a/chf/",
+    mode: "cors",
     headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
 })
     .done(function (data) {
@@ -51,6 +52,7 @@ $.getJSON({
 
 $.getJSON({
     url: "https://api.nbp.pl/api/exchangerates/rates/a/eur/",
+    mode: "cors",
     headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
 })
     .done(function (data) {
@@ -70,6 +72,7 @@ $.getJSON({
 
 $.getJSON({
     url: "https://api.nbp.pl/api/exchangerates/rates/a/usd/",
+    mode: "cors",
     headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
 })
     .done(function (data) {
@@ -84,6 +87,7 @@ $.getJSON({
 
 $.getJSON({
     url: "https://api.nbp.pl/api/exchangerates/rates/a/gbp/",
+    mode: "cors",
     headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
 })
     .done(function (data) {
