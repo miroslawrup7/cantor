@@ -35,7 +35,10 @@ let rate;
 
 let plAmount = "0";
 
-$.getJSON("http://api.nbp.pl/api/exchangerates/rates/a/chf/")
+$.getJSON({
+    url: "http://api.nbp.pl/api/exchangerates/rates/a/chf/",
+    headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
+})
     .done(function (data) {
         chfCode = data.code;
         chfCurrency = data.currency;
@@ -46,7 +49,10 @@ $.getJSON("http://api.nbp.pl/api/exchangerates/rates/a/chf/")
         console.error(error);
     });
 
-$.getJSON("http://api.nbp.pl/api/exchangerates/rates/a/eur/")
+$.getJSON({
+    url: "http://api.nbp.pl/api/exchangerates/rates/a/eur/",
+    headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
+})
     .done(function (data) {
         eurCode = data.code;
         eurCurrency = data.currency;
@@ -62,7 +68,10 @@ $.getJSON("http://api.nbp.pl/api/exchangerates/rates/a/eur/")
         console.error(error);
     });
 
-$.getJSON("http://api.nbp.pl/api/exchangerates/rates/a/usd/")
+$.getJSON({
+    url: "http://api.nbp.pl/api/exchangerates/rates/a/usd/",
+    headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
+})
     .done(function (data) {
         usdCode = data.code;
         usdCurrency = data.currency;
@@ -73,7 +82,10 @@ $.getJSON("http://api.nbp.pl/api/exchangerates/rates/a/usd/")
         console.error(error);
     });
 
-$.getJSON("http://api.nbp.pl/api/exchangerates/rates/a/gbp/")
+$.getJSON({
+    url: "http://api.nbp.pl/api/exchangerates/rates/a/gbp/",
+    headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
+})
     .done(function (data) {
         gbpCode = data.code;
         gbpCurrency = data.currency;
