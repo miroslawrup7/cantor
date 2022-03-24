@@ -36,7 +36,7 @@ let rate;
 let plAmount = "0";
 
 $.getJSON({
-    url: "http://api.nbp.pl/api/exchangerates/rates/a/chf/",
+    url: "https://api.nbp.pl/api/exchangerates/rates/a/chf/",
     headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
 })
     .done(function (data) {
@@ -50,7 +50,7 @@ $.getJSON({
     });
 
 $.getJSON({
-    url: "http://api.nbp.pl/api/exchangerates/rates/a/eur/",
+    url: "https://api.nbp.pl/api/exchangerates/rates/a/eur/",
     headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
 })
     .done(function (data) {
@@ -69,7 +69,7 @@ $.getJSON({
     });
 
 $.getJSON({
-    url: "http://api.nbp.pl/api/exchangerates/rates/a/usd/",
+    url: "https://api.nbp.pl/api/exchangerates/rates/a/usd/",
     headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
 })
     .done(function (data) {
@@ -83,7 +83,7 @@ $.getJSON({
     });
 
 $.getJSON({
-    url: "http://api.nbp.pl/api/exchangerates/rates/a/gbp/",
+    url: "https://api.nbp.pl/api/exchangerates/rates/a/gbp/",
     headres: { Accept: "application/json", "Access-Control-Allow-Origin": "*" },
 })
     .done(function (data) {
