@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg11701"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="pol.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11703"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="396.55076"
+     inkscape:cy="560.47923"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs11698" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="display:inline"
+       transform="matrix(1.4285714,0,0,1.2227173,-1271.4285,-430.39649)"
+       id="poland"
+       inkscape:label="poland">
+      <rect
+         style="fill:#f5f7fa"
+         ry="0"
+         rx="0"
+         height="47"
+         width="70"
+         y="352"
+         x="890"
+         class="cls-11"
+         data-name="Rounded Rectangle 7 copy"
+         id="Rounded_Rectangle_7_copy-136" />
+      <rect
+         style="fill:#ed5565;stroke-width:1.01081"
+         height="23.5"
+         width="70"
+         y="375.5"
+         x="890"
+         class="cls-1"
+         data-name="Rectangle 1 copy"
+         id="Rectangle_1_copy-27" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 100%;
+    font: inherit;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 179px;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.picture {
+    width: 386px;
+    height: 179px;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+.flags-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.flags {
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flags img {
+    height: 30px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 2px 3px 5px;
+}
+
+.cantor-wrapper {
+    width: 60%;
+    min-height: 150px;
+    background-color: #b6dbfa;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.count-line {
+    display: flex;
+    margin: 0px 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-line input {
+    background-color: white;
+    margin: 0 20px;
+    height: 32px;
+    border-radius: 3px;
+    padding: 0 5px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.count-line select {
+    background-color: white;
+    margin: 0 20px;
+    height: 32px;
+    border-radius: 3px;
+    padding: 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;
+    width: 80px;
+    text-align: right;
+}
+
+.count-line > span {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.count-line .result-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+}
+
+.count-line .result-wrapper span.result {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.count-line .result-wrapper span.symbol {
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.count-line .pl-amount {
+    width: 20%;
+    text-align: right;
+}
+
+.count-line select option {
+    margin-left: auto;
+    direction: rtl;
+}
+
+.cantor-wrapper .count-line .pl-amount:focus {
+    border: rgba(0, 0, 255, 0.4) solid 1px;
+}
+
+.notes-wrapper {
+    height: fit-content;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.notes {
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.error {
+    text-align: center;
+    font-size: 13px;
+    color: red;
+    margin: 20px 0;
+}
+
+@media (max-width: 1300px) {
+    .wrapper {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .wrapper {
+        width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        width: 600px;
+    }
+
+    header {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    header h1 {
+        line-height: 56px;
+        padding: 20px 0;
+    }
+
+    .picture {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .cantor-wrapper {
+        width: 80%;
+    }
+
+    .flags {
+        width: 80%;
+    }
+
+    .notes-wrapper {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        width: 360px;
+    }
+
+    .cantor-wrapper {
+        padding: 20px 0;
+        width: 90%;
+        height: 235px;
+    }
+
+    .flags {
+        width: 90%;
+    }
+
+    .notes-wrapper {
+        width: 100%;
+    }
+
+    .count-line {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+
+    .count-line .result-wrapper {
+        justify-content: center;
+    }
+
+    .count-line > span {
+        margin-right: 0px;
+    }
+
+    .count-line .pl-amount {
+        width: 100px;
+    }
+
+    .count-line select {
+        width: 100px;
+    }
+
+    .notes {
+        text-align: center;
+    }
+}

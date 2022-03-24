@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg11830"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="usa.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11832"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="396.55076"
+     inkscape:cy="560.47923"
+     inkscape:window-width="3440"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs11827" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="display:inline"
+       id="united_states"
+       transform="matrix(0.01721611,0,0,0.01721611,50,50)"
+       inkscape:label="united_states">
+      <rect
+         id="rect1784"
+         height="3900"
+         width="5808.5117"
+         x="0"
+         y="0"
+         style="fill:#ed5565;fill-opacity:1;stroke-width:0.885367" />
+      <path
+         id="path1786"
+         d="m 0,450 h 5808.5116 m 0,600 H 0 m 0,600 h 5808.5116 m 0,600 H 0 m 0,600 h 5808.5116 m 0,600 H 0"
+         inkscape:connector-curvature="0"
+         style="stroke:#f5f7fa;stroke-width:265.61;stroke-opacity:1" />
+      <rect
+         id="rect1788"
+         height="2117.1792"
+         width="2964"
+         x="0"
+         y="0"
+         style="fill:#4758a9;fill-opacity:1;stroke-width:1.00408" />
+      <g
+         id="g1813"
+         style="fill:#ffffff">
+        <g
+           id="s18">
+          <g
+             id="s9">
+            <g
+               id="s5">
+              <g
+                 id="s4-5">
+                <path
+                   d="M 247,90 317.53423,307.08204 132.87322,172.91796 H 361.12678 L 176.46577,307.08204 Z"
+                   id="s-8"
+                   inkscape:connector-curvature="0" />
+                <use
+                   id="use1791"
+                   y="420"
+                   xlink:href="#s-8"
+                   x="0"
+                   width="100%"
+                   height="100%" />
+                <use
+                   id="use1793"
+                   y="840"
+                   xlink:href="#s-8"
+                   x="0"
+                   width="100%"
+                   height="100%" />
+                <use
+                   id="use1795"
+                   y="1260"
+                   xlink:href="#s-8"
+                   x="0"
+                   width="100%"
+                   height="100%" />
+              </g>
+              <use
+                 id="use1798"
+                 y="1680"
+                 xlink:href="#s-8"
+                 x="0"
+                 width="100%"
+                 height="100%" />
+            </g>
+            <use
+               id="use1801"
+               y="210"
+               x="247"
+               xlink:href="#s4-5"
+               width="100%"
+               height="100%" />
+          </g>
+          <use
+             id="use1804"
+             x="494"
+             xlink:href="#s9"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+        <use
+           id="use1807"
+           x="988"
+           xlink:href="#s18"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           id="use1809"
+           x="1976"
+           xlink:href="#s9"
+           y="0"
+           width="100%"
+           height="100%" />
+        <use
+           id="use1811"
+           x="2470"
+           xlink:href="#s5"
+           y="0"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+  </g>
+</svg>
